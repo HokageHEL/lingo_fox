@@ -9,7 +9,7 @@ type Props = {
 
 export const NavLink: React.FC<Props> = ({ link }) => {
   return (
-    <li className="p-4 border-2 border-transparent hover:border-purple-300 hover:text-purple-300">
+    <li className="p-4 border-2 border-transparent hover:border-brand-primary hover:text-brand-secondary">
       <a href={link.href}>{link.title}</a>
     </li>
   );

@@ -6,11 +6,11 @@ import { Main } from "./components/Main";
 
 const App: React.FC = () => {
   return (
-    <>
+    <div className="px-10">
       <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 };
 
